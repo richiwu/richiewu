@@ -21,18 +21,21 @@ class NavBar extends Component {
                             name='about'
                             active={activeItem === 'about'}
                             onClick={this.handleItemClick}
+                            class="menu_item"
                         />
                         <Menu.Item
                             as={Link} to='/work'
                             name='work'
                             active={activeItem === 'work'}
                             onClick={this.handleItemClick}
+                            class="menu_item"
                         />
                         <Menu.Item
                             as={Link} to='/life'
                             name='life'
                             active={activeItem === 'life'}
                             onClick={this.handleItemClick}
+                            class="menu_item"
                         />
                     </Menu>
                 </Container>

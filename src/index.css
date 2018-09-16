@@ -3,3 +3,48 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+p,h1,h2,h3,h4,h5,h6,a {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+/****************** HOME PAGE ******************/
+.home_page {
+  background-color:#1c1e26;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  color: #fff
+}
+
+.welcome_button:hover {
+  cursor: pointer;
+}
+
+.landing_title{
+  font-size: 30px;
+}
+
+/****************** BODY ******************/
+.body_content{
+  background-color:#c1aaaa1f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 95vh;
+}
+
+
+/****************** FOOTER ******************/
+.footer_section{
+  height: 5vh;
+}
+
+
+/****************** NAV ******************/
+.menu_item{
+  padding-right: 10px;
+  padding-left: 10px;
+}

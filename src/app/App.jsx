@@ -20,14 +20,16 @@ class App extends Component {
         path="/(.+)"
         render ={() => (
           <div>
-            <NavBar />
-            <Container className="main">
-              <Switch>
-                <Route path='/about' component={AboutPage} />
-                <Route path='/life' component={LifePage} />
-                <Route path='/work' component={WorkPage} />
-              </Switch>
-            </Container>
+            <div className="body_content">
+              <NavBar />
+              <Container className="main">
+                <Switch>
+                  <Route path='/about' component={AboutPage} />
+                  <Route path='/life' component={LifePage} />
+                  <Route path='/work' component={WorkPage} />
+                </Switch>
+              </Container>
+            </div>
             <FooterComponent />
           </div>
         )}
