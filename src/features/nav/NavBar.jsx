@@ -5,7 +5,7 @@ import { Link, withRouter } from 'react-router-dom'
 
 class NavBar extends Component {
     state = {
-        activeItem: 'about'
+        activeItem: ''
     }
 
     handleItemClick = (e, { name }) => this.setState({ activeItem: name })
@@ -17,25 +17,26 @@ class NavBar extends Component {
                 <Container>
                     <Menu pointing secondary>
                         <Menu.Item
+                            color='white'
                             as={Link} to='/about'
                             name='about'
                             active={activeItem === 'about'}
                             onClick={this.handleItemClick}
-                            class="menu_item"
                         />
                         <Menu.Item
+                            color='white'
                             as={Link} to='/work'
                             name='work'
                             active={activeItem === 'work'}
                             onClick={this.handleItemClick}
-                            class="menu_item"
+                            
                         />
                         <Menu.Item
                             as={Link} to='/life'
                             name='life'
                             active={activeItem === 'life'}
                             onClick={this.handleItemClick}
-                            class="menu_item"
+                            
                         />
                     </Menu>
                 </Container>
