@@ -6,6 +6,7 @@ import AboutPage from '../features/about/AboutPage'
 import NavBar from '../features/nav/NavBar'
 import LifePage from '../features/life/LifePage'
 import WorkPage from '../features/work/WorkPage'
+import Quotes from '../features/quotes/quotes'
 import FooterComponent from '../features/footer/FooterComponent'
 import './App.css'
 
@@ -29,6 +30,7 @@ class App extends Component {
                   <Route path='/about' component={AboutPage} />
                   <Route path='/life' component={LifePage} />
                   <Route path='/work' component={WorkPage} />
+                  <Route path='/quotes' component={Quotes} />
                 </Switch>
               </Container>
             </div>
