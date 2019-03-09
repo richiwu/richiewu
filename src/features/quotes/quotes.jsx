@@ -8,28 +8,12 @@ const quoteList = {
             quoteAuthor: 'Unknown Author'
         },
         {
-            quotePhrase: 'quote 2',
-            quoteAuthor: 'author 2'
+            quotePhrase: 'Every day is the first day of your life',
+            quoteAuthor: 'Random Movie'
         },
         {
-            quotePhrase: 'quote 3',
-            quoteAuthor: 'author 3'
-        },
-        {
-            quotePhrase: 'quote 4',
-            quoteAuthor: 'author 4'
-        },
-        {
-            quotePhrase: 'quote 5',
-            quoteAuthor: 'author 5'
-        },
-        {
-            quotePhrase: 'quote 6',
-            quoteAuthor: 'author 6'
-        },
-        {
-            quotePhrase: 'quote 7',
-            quoteAuthor: 'author 7'
+            quotePhrase: 'Life is too short to be a shitty person',
+            quoteAuthor: 'Unknown Author'
         }
     ]
 }

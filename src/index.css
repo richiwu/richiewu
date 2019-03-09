@@ -8,6 +8,9 @@ p,h1,h2,h3,h4,h5,h6,a {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
+.body_content {
+  background-color: #C8D6E5
+}
 
 /****************** HOME PAGE ******************/
 .home_page {
@@ -31,12 +34,38 @@ p,h1,h2,h3,h4,h5,h6,a {
   text-transform: uppercase;
 }
 
-/****************** BODY ******************/
+/****************** ABOUT PAGE ******************/
+.about_page, .work_page,.life_page{
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about_content{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+/****************** ABOUT PAGE ******************/
+.job-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.job-title {
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+}
 
 
 /****************** FOOTER ******************/
 .footer_section{
   height: 5vh;
+  background-color: #C8D6E5
 }
 
 
@@ -61,3 +90,5 @@ p,h1,h2,h3,h4,h5,h6,a {
   justify-content: center;
   height: 100vh;
 }
+
+
